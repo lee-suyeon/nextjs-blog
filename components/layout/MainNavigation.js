@@ -12,6 +12,9 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
+            <Link href="/auth">Login</Link>
+          </li>
+          <li>
             <Link href="/posts">Posts</Link>
           </li>
           <li>
