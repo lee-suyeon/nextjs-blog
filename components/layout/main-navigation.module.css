@@ -25,6 +25,15 @@
   font-size: var(--size-4);
 }
 
+.header button {
+  font: inherit;
+  background-color: transparent;
+  color: var(--color-grey-100);
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
 .header a:hover,
 .header a:active,
 .header a.active {
