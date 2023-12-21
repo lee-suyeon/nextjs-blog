@@ -23,9 +23,11 @@ function MainNavigation() {
               <Link href="/auth">Login</Link>
             </li>
           )}
-          <li>
-            <Link href="/profile">Profile</Link>
-          </li>
+          {session && (
+            <li>
+              <Link href="/profile">Profile</Link>
+            </li>
+          )}
           <li>
             <Link href="/posts">Posts</Link>
           </li>
